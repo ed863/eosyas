@@ -100,15 +100,19 @@
     </div>
 
     <div
-      style="background-color: lightblue; width: 400px; height: 300px;margin-left: 100px;margin-top: 50px;font-size: 20px;">
-      <p> estimate yas to buy 1 eos:</p>
-      <p style="color: red;">{{yas4eos}}</p>
-      <button @click="transEosYas1" style="display: inline-block;height: 50px;">
+      style="background-color: lightblue; width: 600px; height: 300px;margin-left: 100px;margin-top: 50px;font-size: 20px; padding: 30px;">
+      <!-- <p> need about <b style="color: red;">{{yas4eos}}</b> yas to buy 1 eos</p>
+      <p> 需要大约≈约 <b style="color: red;">{{yas4eos}}</b> yas 购买 1 eos</p> -->
+      <p>1 eos ≈ <b style="color: red;">{{yas4eos}} </b>yas</p>
+
+      <button @click="transEosYas1" style="display: inline-block;height: 50px;margin-top: 20px;">
         buy 1 EOS
       </button>
-      <button @click="transEosYas2" style="display: inline-block;height: 50px;">
+      <button @click="transEosYas2" style="display: inline-block;height: 50px;margin-top: 20px;">
         sell 1 EOS
       </button>
+      <p style="font-size: 15px;margin-top: 20px;">如您喜欢此应用，可以为开发者节点 peilin444yas 投票，谢谢！</p>
+      <p style="font-size: 15px;">If you like this app, you can vote for the developer's BP peilin444yas, thanks!</p>
     </div>
   </div>
 
