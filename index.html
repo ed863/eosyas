@@ -14,7 +14,7 @@
   <!-- Scatter JS. -->
   <script src="js/scatter.min.js"></script>
   <script src="js/eos.min.js"></script>
-  <script src="./bundle3.js">
+  <script src="./bundle4.js">
 
 
   </script>
@@ -123,16 +123,17 @@
     data: {
       showName: 0,
       timer1: '',
-      yas4eos: 0.0001,
+      // yas4eos: 0.0001,
+      yas4eos: "loading..",
     },
 
     methods: {
       doThings() {
-        console.log("dothings")
+        // console.log("dothings")
         ccc();
         this.yas4eos = result.toFixed(4);
         this.realyas4eos = this.yas4eos.toString() + ' YAS'
-        console.log("result= " + result + " yas4eos= " + this.yas4eos + " realyas4eos= " + this.realyas4eos)
+        console.log("result = " + this.realyas4eos)
       },
 
       transEosYas1() {
