@@ -8,7 +8,7 @@
     "eosjs": "^21.0.2",
     "express": "^4.17.1",
     "node-fetch": "^2.6.0",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.4.0"
   },
   "devDependencies": {
     "webpack": "^4.44.1",
